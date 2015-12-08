@@ -1,0 +1,20 @@
+[
+	{"line_number":"1",
+	"line_info":"Thursday 8aaa",
+		"players":[
+			{"country":"images/bol", "player":"Lautaro Freidin"},
+			{"country":"images/arg", "player":"Pablo Artuso"},
+			{"country":"images/bol", "player":"Lucas Mari"},
+			{"country":"images/arg", "player":"Patricio Lahitou"}
+		]
+	},
+	{"line_number":"2",
+	"line_info":"Friday 10bb",
+		"players":[
+			{"country":"images/arg", "player":"Martin Ferrarotti"},
+			{"country":"images/arg", "player":"Ezequiel Del Corral"},
+			{"country":"images/bol", "player":"Manuel Deza"},
+			{"country":"images/irl", "player":"Martín Dobantón"}
+		]
+	}
+]
