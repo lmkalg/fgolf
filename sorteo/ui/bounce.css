@@ -1,0 +1,122 @@
+.css3-notification {
+	font-size: .8em;
+	text-align: center;
+	padding: 10px;
+	color: #111;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+	text-transform: uppercase;
+	position: relative;
+	font-weight: bold;
+	font-size: 2em;
+  	text-align:center;
+
+	-webkit-animation: bounce 800ms ease-out;
+	-moz-animation: bounce 800ms ease-out;
+	-o-animation: bounce 800ms ease-out;
+	animation: bounce 800ms ease-out;
+}
+
+/* Webkit, Chrome and Safari */
+
+@-webkit-keyframes bounce {
+  0% {
+	-webkit-transform:translateX(-100%);
+    opacity: 0;
+  }
+  5% {
+  	-webkit-transform:translateX(-100%);
+    opacity: 0;
+  }
+  15% {
+  	-webkit-transform:translateX(0);
+    padding-bottom: 5px;
+  }
+  30% {
+  	-webkit-transform:translateX(-50%);
+  }
+  40% {
+  	-webkit-transform:translateX(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	-webkit-transform:translateX(-30%);
+  }
+  70% {
+  	-webkit-transform:translateX(0%);
+    padding-bottom: 7px;
+  }
+  80% {
+  	-webkit-transform:translateX(-15%);
+  }
+  90% {
+  	-webkit-transform:translateX(0%);
+  	padding-bottom: 8px;
+  }
+  95% {
+  	-webkit-transform:translateX(-10%);
+  }
+  97% {
+  	-webkit-transform:translateX(0%);
+  	padding-bottom: 9px;
+  }
+  99% {
+  	-webkit-transform:translateX(-5%);
+  }
+  100% {
+  	-webkit-transform:translateX(0);
+  	padding-bottom: 9px;
+    opacity: 1;
+  }
+}
+
+/* W3, Opera 12+, Firefox 16+ */
+@keyframes bounce {
+  0% {
+	transform:translateX(-100%);
+    opacity: 0;
+  }
+  5% {
+  	transform:translateX(-100%);
+    opacity: 0;
+  }
+  15% {
+  	transform:translateX(0);
+    padding-bottom: 5px;
+  }
+  30% {
+  	transform:translateX(-50%);
+  }
+  40% {
+  	transform:translateX(0%);
+    padding-bottom: 6px;
+  }
+  50% {
+  	transform:translateX(-30%);
+  }
+  70% {
+  	transform:translateX(0%);
+    padding-bottom: 7px;
+  }
+  80% {
+  	transform:translateX(-15%);
+  }
+  90% {
+  	transform:translateX(0%);
+  	padding-bottom: 8px;
+  }
+  95% {
+  	transform:translateX(-7%);
+  }
+  97% {
+  	transform:translateX(0%);
+  	padding-bottom: 9px;
+  }
+  99% {
+  	transform:translateX(-3%);
+  }
+  100% {
+  	transform:translateX(0);
+  	padding-bottom: 9px;
+    opacity: 1;
+  }
+}
