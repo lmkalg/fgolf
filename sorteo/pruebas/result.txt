@@ -1,14 +1,14 @@
-Line 1: Thursday 8aaa
-	*) Lautaro Freidin - BOL
+Line 1: Thursday 8 AM
 	*) Pablo Artuso - ARG
-	*) Lucas Mari - BOL
-	*) Patricio Lahitou - ARG
-
-
-Line 2: Friday 10bb
+	*) Lautaro Freidin - BOL
 	*) Martin Ferrarotti - ARG
+	*) Martín Dobantón - IRL
+
+
+Line 2: Friday 10 AM
 	*) Ezequiel Del Corral - ARG
 	*) Manuel Deza - BOL
-	*) Martín Dobantón - IRL
+	*) Patricio Lahitou - ARG
+	*) Lucas Mari - BOL
 
 
