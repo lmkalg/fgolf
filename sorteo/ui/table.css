@@ -28,6 +28,50 @@ body{
     font-family:"olivier";
     src: url("olivier.ttf"); /* TTF file for CSS3 browsers */
 }
+/* BUTTOM
+/*------------------------*/
+
+
+.buttomSD {
+  -moz-box-shadow: -1px -7px 38px 1px #0f7aa1;
+  -webkit-box-shadow: -1px -7px 38px 1px #0f7aa1;
+  box-shadow: -1px -7px 38px 1px #0f7aa1;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #45adc7), color-stop(1, #0a5461));
+  background:-moz-linear-gradient(top, #45adc7 5%, #0a5461 100%);
+  background:-webkit-linear-gradient(top, #45adc7 5%, #0a5461 100%);
+  background:-o-linear-gradient(top, #45adc7 5%, #0a5461 100%);
+  background:-ms-linear-gradient(top, #45adc7 5%, #0a5461 100%);
+  background:linear-gradient(to bottom, #45adc7 5%, #0a5461 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#45adc7', endColorstr='#0a5461',GradientType=0);
+  background-color:#45adc7;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:4px solid #0c929c;
+  display:inline-block;
+  cursor:pointer;
+  color:#330533;
+  font-family:Arial;
+  font-size:17px;
+  padding:26px 59px;
+  text-decoration:none;
+  text-shadow:0px 20px 41px #11808f;
+}
+.buttomSD:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0a5461), color-stop(1, #45adc7));
+  background:-moz-linear-gradient(top, #0a5461 5%, #45adc7 100%);
+  background:-webkit-linear-gradient(top, #0a5461 5%, #45adc7 100%);
+  background:-o-linear-gradient(top, #0a5461 5%, #45adc7 100%);
+  background:-ms-linear-gradient(top, #0a5461 5%, #45adc7 100%);
+  background:linear-gradient(to bottom, #0a5461 5%, #45adc7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a5461', endColorstr='#45adc7',GradientType=0);
+  background-color:#0a5461;
+}
+.buttomSD:active {
+  position:relative;
+  top:1px;
+}
+
 /*------------------------*/
 
 

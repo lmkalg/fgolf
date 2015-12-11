@@ -8,13 +8,24 @@
 
 <!-- Description -->
 <h1 class="description">
-  Footgol Init Draw
+  Footgolf Init Draw
 </h1>
 
 <!-- Table demo -->
 <div class="box-table">
-<table data-fn="contacts" data-url="table.json"></table>    
-<script src="table.js"></script>	
+<table data-fn="contacts" data-url="../table.json"></table>    
+
+
+<input type="button" id="botoncito" value= 'Start Draw!' class='buttomSD'>
+
+
+<script type="text/javascript">
+$('#botoncito').on('click',function(){
+    var button = document.getElementById('botoncito');
+    button.style.visibility = 'hidden';
+	$.getScript("table.js");
+});
+</script>
 </div>
 
 
