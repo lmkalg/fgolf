@@ -1,10 +1,11 @@
 /* = body
 ------------------------*/
 body{
-  background:#1abc9c;
+  /*background:#1abc9c; */
+  background:#000000;
 }
 .description{
-  font-family: 'Vollkorn', serif;
+  font-family: 'olivier';
   text-align:center;
   color:#ecf0f1;
   text-shadow:0 0.1em 0.2em #008c8d;
@@ -22,6 +23,15 @@ body{
 }
 /* = table
 ------------------------*/
+
+@font-face {
+    font-family:"olivier";
+    src: url("olivier.ttf"); /* TTF file for CSS3 browsers */
+}
+/*------------------------*/
+
+
+
 .box-table table{
   border-collapse:collapse;
   text-align:left;
@@ -44,7 +54,7 @@ body{
   color:#bdc3c7;
   text-align:center;
   padding: 0.5em;
-  font-family: 'Vollkorn', serif;
+  font-family: 'olivier', serif;
   font-weight: bold;
   font-size: 2.0em;  
   height: 1.5em;
@@ -57,7 +67,7 @@ body{
 
 }
 .box-table table tbody tr{ /*PLAYERS */
-  font-family: 'Vollkorn', serif;
+  font-family: 'olivier', serif;
   font-size:1em;
   border:none;
   padding:1em;
@@ -79,8 +89,8 @@ body{
 }
 
 .box-table .players-name{
-  font-size: 2em;
-  text-align:center;
+  font-size: 1em;
+  text-align:left;
 }
 
 
@@ -173,7 +183,7 @@ body{
   display: block;
   background: #E05E5E;
   color: #D1D1D1;
-  font-family: 'Vollkorn', serif;
+  font-family: 'olivier', serif;
   text-align: center;
   font-size: 3em;
   width: 90%;
@@ -184,7 +194,7 @@ body{
 .loading_table{
   background:#d35400;
   color:#ecf0f1;
-  font-family: 'Vollkorn', serif;
+  font-family: 'olivier', serif;
   text-align: center;
   font-size: 1em;
   width: 0;

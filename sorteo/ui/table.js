@@ -20,6 +20,8 @@
 // ]
 
 
+
+
 (function(){
   
   'use-strict';
@@ -67,7 +69,6 @@
         for (var i = 0; i < data.length; i++){
           (function(i){
               setTimeout(function(){
-                console.log(data[i])
 
                 // load template
                 var out_html = self.complete_line_and_template(data[i]); 
@@ -129,8 +130,19 @@
     
   };
   
-  // on ready render data
   $(document).ready(function() {
-    $.table_of_contacts.get.init();
+    $.ajax({
+      type:"POST",
+      url:"http://localhost:8000/execute",
+    }).done(function(trash){
+      console.log(trash);
+      console.log(1);
+      $.table_of_contacts.get.init();
+    });
   });
-})().call(this);
+
+}).call(this)
+
+
+
+
