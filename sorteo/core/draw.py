@@ -67,7 +67,28 @@ def write_json(json_file, lines):
 		f.write(']\n')
 
 
-
+def get_json(lines):
+	f = ""
+	#Sort it by line number
+	lines.sort(key= lambda l: l.number)
+	f += '[\n'
+	for line in lines:
+		f += '\t{'
+		f += '\"line_number\":\"{0}\",\n'.format(line.number)
+		f += '\t\"line_info\":\"{0}\",\n'.format(line.date)
+		f += '\t\t\"players\":[\n'
+		for player in line.players:
+			f += '\t\t\t{\"country\":\"%s\", \"player\":\"%s\"}' % (countries_images[player.country], player.name)
+			if not player == line.players[-1]:
+				f += ','
+			f += '\n'
+		f += '\t\t]\n'
+		f += '\t}'
+		if not line == lines[-1]: 
+			f += ','
+		f += '\n'
+	f += ']\n'
+	return f
 
 
 
@@ -132,7 +153,15 @@ def second_turn(players,lines):
 
 
 
-def begin_draw(name_country_file, date_file, result_file, json_file):
+	
+#def begin_draw(name_country_file, date_file, result_file, json_file):
+def begin_draw():
+
+	name_country_file = '../pruebas/names.txt'
+	date_file = '../pruebas/dates.txt'
+	result_file = '../pruebas/result.txt'
+	json_file = '../table.json'
+	
 	times = 10
 	i = 0
 
@@ -152,6 +181,7 @@ def begin_draw(name_country_file, date_file, result_file, json_file):
 
 			write_result(result_file, lines) #Human frindly file
 			write_json(json_file, lines)
+			return get_json(lines)
 			#print "%s" % str(i)
 			break
 		except Exception,e :
@@ -163,14 +193,16 @@ def begin_draw(name_country_file, date_file, result_file, json_file):
 
 
 if __name__ == '__main__':
-	parser = ArgumentParser()
+#	parser = ArgumentParser()
 
-	parser.add_argument('-d', dest='dates', help='Path to file with the time of line.')
-	parser.add_argument('-n', dest='names', help='Path to file of names and countries relationship.')
-	parser.add_argument('-o', dest='output', help='Path where the output will be placed.')
-	parser.add_argument('-j', dest='json', help='Path where the output in json will be placed.')
+#	parser.add_argument('-d', dest='dates', help='Path to file with the time of line.')
+#	parser.add_argument('-n', dest='names', help='Path to file of names and countries relationship.')
+#	parser.add_argument('-o', dest='output', help='Path where the output will be placed.')
+#	parser.add_argument('-j', dest='json', help='Path where the output in json will be placed.')
 
-	args  = parser.parse_args()
+#	args  = parser.parse_args()
 
-	begin_draw(args.names, args.dates, args.output, args.json)
+#	begin_draw(args.names, args.dates, args.output, args.json)
+	begin_draw()
+
 
