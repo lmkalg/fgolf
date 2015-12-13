@@ -2,6 +2,7 @@
 import random
 import constants
 import sys
+import json
 
 from argparse import ArgumentParser
 from player import Player
@@ -161,7 +162,7 @@ def begin_draw():
 	date_file = '../pruebas/dates.txt'
 	result_file = '../pruebas/result.txt'
 	json_file = '../table.json'
-	
+
 	times = 10
 	i = 0
 
@@ -189,7 +190,8 @@ def begin_draw():
 				i += 1
 				pass
 			else:
-				raise Exception("%s"%e)
+				print json.dumps({'Error':'%s'%e})
+				return json.dumps({'Error':'%s'%e})
 
 
 if __name__ == '__main__':

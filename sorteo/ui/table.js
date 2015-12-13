@@ -132,10 +132,14 @@
     $.ajax({
       type:"POST",
       url:"http://localhost:8000/execute",
-    }).done(function(trash){
-      console.log(trash);
-      console.log(1);
-      $.table_of_contacts.get.init();
+    }).done(function(json_obj){
+      console.log(json_obj);
+      if(json_obj.Error){
+        alert(json_obj.Error);
+      }
+      else{
+        $.table_of_contacts.get.init();
+      }
     });
   });
 
