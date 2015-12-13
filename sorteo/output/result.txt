@@ -1,0 +1,35 @@
+Line 1: Thursday 8 AM
+	*) Sebastián Siritto - GBR
+	*) Nacho Diaz Oliva - CRO
+	*) Patricio Lahitou - ARG
+	*) Martín Dobantón - IRL
+
+
+Line 2: Thursday 9 AM
+	*) Federico Donohoe - ESA
+	*) Manuel Deza - CAN
+	*) Pablo Artuso - ARG
+	*) Ezequiel Del Corral - ARG
+
+
+Line 3: Thursday 10 AM
+	*) Santiago Stocke - NED
+	*) Martin Ferrarotti - ARG
+	*) Alejandro Guglielmo - BRA
+	*) Lautaro Freidin - RSA
+
+
+Line 4: Friday 9 AM
+	*) Francisco Martin - AUT
+	*) Gonzalo Siritto - SVK
+	*) Christian Martinez - PUR
+	*) Nicolas Varela - NOR
+
+
+Line 5: Friday 10 AM
+	*) Agustin Diaz Oliva - COL
+	*) Lucas Mari - CHN
+	*) Agustín Devoto - USA
+	*) Christian Mercadé - PAN
+
+

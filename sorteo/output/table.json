@@ -1,0 +1,47 @@
+[
+	{"line_number":"1",
+	"line_info":"Thursday 8 AM",
+		"players":[
+			{"country":"../images/gbr", "player":"Sebastián Siritto"},
+			{"country":"../images/cro", "player":"Nacho Diaz Oliva"},
+			{"country":"../images/arg", "player":"Patricio Lahitou"},
+			{"country":"../images/irl", "player":"Martín Dobantón"}
+		]
+	},
+	{"line_number":"2",
+	"line_info":"Thursday 9 AM",
+		"players":[
+			{"country":"../images/esa", "player":"Federico Donohoe"},
+			{"country":"../images/can", "player":"Manuel Deza"},
+			{"country":"../images/arg", "player":"Pablo Artuso"},
+			{"country":"../images/arg", "player":"Ezequiel Del Corral"}
+		]
+	},
+	{"line_number":"3",
+	"line_info":"Thursday 10 AM",
+		"players":[
+			{"country":"../images/ned", "player":"Santiago Stocke"},
+			{"country":"../images/arg", "player":"Martin Ferrarotti"},
+			{"country":"../images/bra", "player":"Alejandro Guglielmo"},
+			{"country":"../images/rsa", "player":"Lautaro Freidin"}
+		]
+	},
+	{"line_number":"4",
+	"line_info":"Friday 9 AM",
+		"players":[
+			{"country":"../images/aut", "player":"Francisco Martin"},
+			{"country":"../images/svk", "player":"Gonzalo Siritto"},
+			{"country":"../images/pur", "player":"Christian Martinez"},
+			{"country":"../images/nor", "player":"Nicolas Varela"}
+		]
+	},
+	{"line_number":"5",
+	"line_info":"Friday 10 AM",
+		"players":[
+			{"country":"../images/col", "player":"Agustin Diaz Oliva"},
+			{"country":"../images/chn", "player":"Lucas Mari"},
+			{"country":"../images/usa", "player":"Agustín Devoto"},
+			{"country":"../images/pan", "player":"Christian Mercadé"}
+		]
+	}
+]

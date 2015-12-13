@@ -158,10 +158,10 @@ def second_turn(players,lines):
 #def begin_draw(name_country_file, date_file, result_file, json_file):
 def begin_draw():
 
-	name_country_file = '../pruebas/names.txt'
-	date_file = '../pruebas/dates.txt'
-	result_file = '../pruebas/result.txt'
-	json_file = '../table.json'
+	name_country_file = constants.NAMES_FILE_PATH
+	date_file = constants.DATE_FILE_PATH
+	result_file = constants.RESULT_FILE_PATH
+	json_file = constants.JSON_FILE_PATH
 
 	times = 10
 	i = 0
@@ -183,7 +183,6 @@ def begin_draw():
 			write_result(result_file, lines) #Human frindly file
 			write_json(json_file, lines)
 			return get_json(lines)
-			#print "%s" % str(i)
 			break
 		except Exception,e :
 			if i < times:
