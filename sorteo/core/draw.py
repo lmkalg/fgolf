@@ -3,6 +3,8 @@ import random
 import constants
 import sys
 import json
+import time 
+
 
 from argparse import ArgumentParser
 from player import Player
@@ -182,6 +184,8 @@ def begin_draw():
 
 			write_result(result_file, lines) #Human frindly file
 			write_json(json_file, lines)
+			write_json(json_file + str(time.time()), lines)
+
 			return get_json(lines)
 			break
 		except Exception,e :
