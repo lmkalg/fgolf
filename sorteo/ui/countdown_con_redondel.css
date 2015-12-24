@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+body {
+  background-color: black;
+}
+
+.cd-wrapper {
+	background-color: #000000;
+	width: 350px;
+	height: 350px;
+	position: fixed;
+	top: 10%;
+	right: 10%;
+	margin-top: -75px;
+	margin-left: -175px;
+}
+
+.cd-outer-top-left {
+	position: absolute;
+  background-color: #000000;
+	width: 173px;
+	height: 173px;
+	top: 0;
+	left: 0;
+}
+
+.cd-outer-top-right {
+	position: absolute;
+	width: 173px;
+	height: 173px;
+	top: 0;
+	right: 0;
+}
+
+.cd-outer-btm-left {
+	position: absolute;
+	width: 173px;
+	height: 173px;
+	bottom: 0;
+	left: 0;
+}
+
+.cd-outer-btm-right {
+	position: absolute;
+	width: 173px;
+	height: 173px;
+	float: right;
+	bottom: 0;
+	right: 0;
+}
+
+.cd-inner-top-left {
+	background-color: #3366FF;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 0;
+	right: 0;
+	border-top-left-radius: 180px;
+}
+
+.cd-inner-top-right {
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 0;
+	left: 0;
+	border-top-right-radius: 180px;
+}
+
+.cd-inner-btm-left {
+	background-color: #ffffff;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	border-bottom-left-radius: 180px;
+}
+
+.cd-inner-btm-right {
+	background-color: #3366FF;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 180px;
+}
+
+.cd-number-wrapper {
+	width: 80px;
+	height: 189px;
+	top: 50%;
+	margin: 80px auto 0 auto;
+	font-size: 10em;
+	font-family: 'Londrina Outline'; /* Bowlby One SC */
+}
+	
+.cd-number-five {
+	position: absolute;
+	opacity: 0;
+	margin: 0 auto 0 auto;
+	-webkit-animation: cd-number-five-anim 1.2s ease 0s 1 normal;
+	-moz-animation: cd-number-five-anim 1.2s ease 0s 1 normal;
+	-ms-animation: cd-number-five-anim 1.2s ease 0s 1 normal;
+	-o-animation: cd-number-five-anim 1.2s ease 0s 1 normal;
+	animation: cd-number-five-anim 1.2s ease 0s 1 normal;
+}
+
+@-webkit-keyframes cd-number-five-anim {
+	from {-webkit-transform: scale(0.1); opacity: 0;}
+	to {  -webkit-transform: scale(0.6); opacity: 1;}}
+	
+@-moz-keyframes cd-number-five-anim {
+	from {-moz-transform: scale(0.1); opacity: 0;}
+	to {  -moz-transform: scale(0.6); opacity: 1;}}
+	
+@-o-keyframes cd-number-five-anim {
+	from {-o-transform: scale(0.1); opacity: 0;}
+	to {  -o-transform: scale(0.6); opacity: 1;}}
+	
+@-ms-keyframes cd-number-five-anim {
+	from {-ms-transform: scale(0.1); opacity: 0;}
+	to {  -ms-transform: scale(0.6); opacity: 1;}}
+	
+@keyframes cd-number-five-anim {
+	from {transform: scale(0.1); opacity: 0;}
+	to {  transform: scale(0.6); opacity: 1;}}
+
+.cd-number-four {
+	position: absolute;
+	opacity: 0;
+	-webkit-animation: cd-number-four-anim 1.2s ease 1.2s 1 normal;
+	-moz-animation: cd-number-four-anim 1.2s ease 1.2s 1 normal;
+	-ms-animation: cd-number-four-anim 1.2s ease 1.2s 1 normal;
+	-o-animation: cd-number-four-anim 1.2s ease 1.2s 1 normal;
+	animation: cd-number-four-anim 1.2s ease 1.2s 1 normal;
+}
+
+@-webkit-keyframes cd-number-four-anim {
+	from {-webkit-transform: scale(0.1); opacity: 0;}
+	to {  -webkit-transform: scale(0.6); opacity: 1;}}
+	
+@-moz-keyframes cd-number-four-anim {
+	from {-moz-transform: scale(0.1); opacity: 0;}
+	to {  -moz-transform: scale(0.6); opacity: 1;}}
+	
+@-o-keyframes cd-number-four-anim {
+	from {-o-transform: scale(0.1); opacity: 0;}
+	to {  -o-transform: scale(0.6); opacity: 1;}}
+	
+@-ms-keyframes cd-number-four-anim {
+	from {-ms-transform: scale(0.1); opacity: 0;}
+	to {  -ms-transform: scale(0.6); opacity: 1;}}
+	
+@keyframes cd-number-four-anim {
+	from {transform: scale(0.1); opacity: 0;}
+	to {  transform: scale(0.6); opacity: 1;}}
+
+.cd-number-three {
+	position: absolute;
+	opacity: 0;
+	-webkit-animation: cd-number-three-anim 1.2s ease 2.4s 1 normal;
+	-moz-animation: cd-number-three-anim 1.2s ease 2.4s 1 normal;
+	-ms-animation: cd-number-three-anim 1.2s ease 2.4s 1 normal;
+	-o-animation: cd-number-three-anim 1.2s ease 2.4s 1 normal;
+	animation: cd-number-three-anim 1.2s ease 2.4s 1 normal;
+}
+
+@-webkit-keyframes cd-number-three-anim {
+	from {-webkit-transform: scale(0.1); opacity: 0;}
+	to {  -webkit-transform: scale(0.6); opacity: 1;}}
+	
+@-moz-keyframes cd-number-three-anim {
+	from {-moz-transform: scale(0.1); opacity: 0;}
+	to {  -moz-transform: scale(0.6); opacity: 1;}}
+	
+@-o-keyframes cd-number-three-anim {
+	from {-o-transform: scale(0.1); opacity: 0;}
+	to {  -o-transform: scale(0.6); opacity: 1;}}
+	
+@-ms-keyframes cd-number-three-anim {
+	from {-ms-transform: scale(0.1); opacity: 0;}
+	to {  -ms-transform: scale(0.6); opacity: 1;}}
+	
+@keyframes cd-number-three-anim {
+	from {transform: scale(0.1); opacity: 0;}
+	to {  transform: scale(0.6); opacity: 1;}}
+
+.cd-number-two {
+	position: absolute;
+	opacity: 0;
+	-webkit-animation: cd-number-two-anim 1.2s ease 3.6s 1 normal;
+	-moz-animation: cd-number-two-anim 1.2s ease 3.6s 1 normal;
+	-ms-animation: cd-number-two-anim 1.2s ease 3.6s 1 normal;
+	-o-animation: cd-number-two-anim 1.2s ease 3.6s 1 normal;
+	animation: cd-number-two-anim 1.2s ease 3.6s 1 normal;
+}
+
+@-webkit-keyframes cd-number-two-anim {
+	from {-webkit-transform: scale(0.1); opacity: 0;}
+	to {  -webkit-transform: scale(0.6); opacity: 1;}}
+	
+@-moz-keyframes cd-number-two-anim {
+	from {-moz-transform: scale(0.1); opacity: 0;}
+	to {  -moz-transform: scale(0.6); opacity: 1;}}
+	
+@-o-keyframes cd-number-two-anim {
+	from {-o-transform: scale(0.1); opacity: 0;}
+	to {  -o-transform: scale(0.6); opacity: 1;}}
+	
+@-ms-keyframes cd-number-two-anim {
+	from {-ms-transform: scale(0.1); opacity: 0;}
+	to {  -ms-transform: scale(0.6); opacity: 1;}}
+	
+@keyframes cd-number-two-anim {
+	from {transform: scale(0.1); opacity: 0;}
+	to {  transform: scale(0.6); opacity: 1;}}
+
+.cd-number-one {
+	position: absolute;
+	opacity: 0;
+	-webkit-animation: cd-number-one-anim 1.2s ease 4.8s 1 normal;
+	-moz-animation: cd-number-one-anim 1.2s ease 4.8s 1 normal;
+	-ms-animation: cd-number-one-anim 1.2s ease 4.8s 1 normal;
+	-o-animation: cd-number-one-anim 1.2s ease 4.8s 1 normal;
+	animation: cd-number-one-anim 1.2s ease 4.8s 1 normal;
+}
+
+@-webkit-keyframes cd-number-one-anim {
+	from {-webkit-transform: scale(0.1); opacity: 0;}
+	to {  -webkit-transform: scale(0.6); opacity: 1;}}
+	
+@-moz-keyframes cd-number-one-anim {
+	from {-moz-transform: scale(0.1); opacity: 0;}
+	to {  -moz-transform: scale(0.6); opacity: 1;}}
+	
+@-o-keyframes cd-number-one-anim {
+	from {-o-transform: scale(0.1); opacity: 0;}
+	to {  -o-transform: scale(0.6); opacity: 1;}}
+	
+@-ms-keyframes cd-number-one-anim {
+	from {-ms-transform: scale(0.1); opacity: 0;}
+	to {  -ms-transform: scale(0.6); opacity: 1;}}
+	
+@keyframes cd-number-one-anim {
+	from {transform: scale(0.1); opacity: 0;}
+	to {  transform: scale(0.6); opacity: 1;}}

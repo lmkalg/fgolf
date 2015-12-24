@@ -1,0 +1,20 @@
+Barberis Fernando,ARG
+Battaglia Damián,ARG
+Donoso Carlos,CAN 
+Girbone	Santiago,CHI
+Liu Mengyang,CHN
+Luan Chen,CHN
+Zhang Yunlong,CHN
+COUSIN Nicolas,FRA
+RICHER Alexandre,FRA
+Papp Péter,HUN
+Grace Chris,IRL
+Brescacin Flavio,ITA
+Taliercio Luca,ITA
+Kwon Kisung Dennis,KOR
+BARRAGÁN OSVALDO,MEX
+REES JASON,MEX
+Fabbro Dario,PAR
+Svensson Tommy,SWE
+Fleck Kenneth,USA
+Godfrey Jordan,USA
