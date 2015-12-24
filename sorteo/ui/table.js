@@ -73,10 +73,9 @@
 
               // load template
               var out_html = self.complete_line_and_template(data[i]); 
-              $.each(data[i].players,function(i,obj){  
-                // load inner template
-                out_html += self.complete_players_info(obj);
-              });  
+
+
+              out_html += self.complete_players_info(data[i].players);
               // close tag
               out_html += '</tbody>';
               // render templates
@@ -144,12 +143,39 @@
     // inner template
     complete_players_info: function(obj){
       
-      var  html= '<tr>'+
-          '<td class="css3-notification-country">'+
-          '<img class="user-tumb" src="'+obj.country+'"/>'+
+      var  html=
+          //First player
+          '<tr>'+
+          '<td class="css3-notification-country-1st">'+
+          '<img class="user-tumb" src="'+obj[0].country+'"/>'+
           '</td>'+
-          '<td class="css3-notification-player">'+obj.player+'</td>'+
-          '</tr>'; 
+          '<td class="css3-notification-player-1st">'+obj[0].player+'</td>'+
+          '</tr>'+
+
+          //Second player
+          '<tr>'+
+          '<td class="css3-notification-country-2nd">'+
+          '<img class="user-tumb" src="'+obj[1].country+'"/>'+
+          '</td>'+
+          '<td class="css3-notification-player-2nd">'+obj[1].player+'</td>'+
+          '</tr>'+
+
+          //Third player
+          '<tr>'+
+          '<td class="css3-notification-country-3rd">'+
+          '<img class="user-tumb" src="'+obj[2].country+'"/>'+
+          '</td>'+
+          '<td class="css3-notification-player-3rd">'+obj[2].player+'</td>'+
+          '</tr>'+
+
+          //Fourth Player
+          '<tr>'+
+          '<td class="css3-notification-country-4th">'+
+          '<img class="user-tumb" src="'+obj[3].country+'"/>'+
+          '</td>'+
+          '<td class="css3-notification-player-4th">'+obj[3].player+'</td>'+
+          '</tr>';
+
       return html;
     }
     
