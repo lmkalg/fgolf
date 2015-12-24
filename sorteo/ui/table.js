@@ -65,7 +65,7 @@
 
 
       $.getJSON(thisUrl,function(data){
-        var time_to_wait = 8000;
+        var time_to_wait = 20000;
         for (var i = 0; i < data.length; i++){
           (function(i){
               setTimeout(function(){
@@ -118,10 +118,10 @@
     complete_players_info: function(obj){
       
       var  html= '<tr>'+
-          '<td class="country-photo">'+
+          '<td class="css3-notification-country">'+
           '<img class="user-tumb" src="'+obj.country+'"/>'+
           '</td>'+
-          '<td class="css3-notification">'+obj.player+'</td>'+
+          '<td class="css3-notification-player">'+obj.player+'</td>'+
           '</tr>'; 
       return html;
     }

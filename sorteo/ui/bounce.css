@@ -1,19 +1,37 @@
-.css3-notification {
+.css3-notification-country {
 	font-size: .8em;
 	text-align: center;
 	padding: 10px;
-	color: #111;
+	color: #FFFFFF;
 	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
-	text-transform: uppercase;
 	position: relative;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1em;
   	text-align:center;
 
 	-webkit-animation: bounce 800ms ease-out;
 	-moz-animation: bounce 800ms ease-out;
 	-o-animation: bounce 800ms ease-out;
 	animation: bounce 800ms ease-out;
+}
+
+
+
+.css3-notification-player {
+  font-size: .8em;
+  text-align: center;
+  padding: 10px;
+  color: #FFFFFF;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .3);
+  position: relative;
+  font-weight: bold;
+  font-size: 3em;
+    text-align:center;
+
+  -webkit-animation: bounce 800ms ease-out;
+  -moz-animation: bounce 800ms ease-out;
+  -o-animation: bounce 800ms ease-out;
+  animation: bounce 800ms ease-out;
 }
 
 /* Webkit, Chrome and Safari */

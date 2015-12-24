@@ -2,7 +2,7 @@
 ------------------------*/
 body{
   /*background:#1abc9c; */
-  background:#000000;
+  background:black;
 }
 .description{
   font-family: 'olivier';
@@ -16,10 +16,10 @@ body{
   width:0.2em;
 }
 ::-webkit-scrollbar-track{
-  background-color:#bdc3c7;
+  background-color:#0000FF;
 }
 ::-webkit-scrollbar-thumb{
-  background-color:#7f8c8d;
+  background-color:#0000FF;
 }
 /* = table
 ------------------------*/
@@ -77,12 +77,14 @@ body{
 
 
 .box-table table{
+  position: absolute; top:0; bottom: 0; left:0 ; right:0;
   border-collapse:collapse;
+  border-color: #330099
   text-align:left;
   width:100%;
   margin:0;
   padding:0;
-  background:#7f8c8d;
+  background:black; /* PARTU: BORDE IZQ DE LOS PAISES */ 
   animation: responsive 5s infinite ease-in-out;
 }
 .box-table{
@@ -90,12 +92,11 @@ body{
   overflow:hidden;
   margin:0 auto;
   display:block;
-  width:95%;
   padding:2.5%;
 }
 .box-table table thead th{ /* TABLE HEADERS  */
-  background-color:#7f8c8d;
-  color:#bdc3c7;
+  background-color:330099; /* PARTU: PARTE DE ARRIBA */ 
+  color:#FFFFFF;
   text-align:center;
   padding: 0.5em;
   font-family: 'olivier', serif;
@@ -103,7 +104,8 @@ body{
   font-size: 2.0em;  
   height: 1.5em;
   vertical-align: top;
-  border-left:0.25em double #95a5a6;
+  /*border-left:2.50em double #95a5a6;*/
+  border-left-color: #330099
 
 }
 .box-table table tbody td{
@@ -113,17 +115,34 @@ body{
 .box-table table tbody tr{ /*PLAYERS */
   font-family: 'olivier', serif;
   font-size:1em;
-  border:none;
-  padding:1em;
+  border-left-color:#FFFFFF;
 }
-.box-table table tbody tr:nth-child(odd){
-  background:#ecf0f1;
-  color:#95a5a6;
+.box-table table tbody tr:nth-child(1){
+  background:#3366FF; /* PARTU: fondos nombres de jugadores*/
+  color:#FFFFFF;
+  border-left-color:#3366FF ;
+  width: 100%;
 }
-.box-table table tbody tr:nth-child(even){
-  background:#bdc3c7;
-  color:#7f8c8d;
+.box-table table tbody tr:nth-child(2){
+  background:#3399FF; /*PARTU: fondos nombres de jugadores */
+  color:#FFFFFF;
+  border-left-color:#3399FF ;
+  width: 100%;
 }
+
+.box-table table tbody tr:nth-child(3){
+  background:#3366FF; /*PARTU: fondos nombres de jugadores */
+  color:#FFFFFF;
+  border-left-color:#3366FF ;
+  width: 100%;
+}
+.box-table table tbody tr:nth-child(4){
+  background:#3399FF; /*PARTU: fondos nombres de jugadores */
+  color:#FFFFFF;
+  border-left-color:#3399FF ;
+  width: 100%;
+}
+
 .box-table table tbody tr a{
   text-decoration:none;
   color:#e67e22;
@@ -138,12 +157,12 @@ body{
 }
 
 
-.box-table .country-photo{
-  background:#bdc3c7;
+.box-table .country-photo{ 
+  background:#330099; /* PARTU: PAISES*/ ;
 }
 
 .box-table .line-description{
-  background:#bdc3c7;
+  background:#FFFFFF; /* PARTU: NOMBRES DE JUGADORES   */
   font-size: 2em;
   text-align: center;
 }
