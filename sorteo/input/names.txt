@@ -3,25 +3,25 @@ Battaglia Damián,ARG
 Braccani Luciano,ARG
 Cagnola Germán,ARG
 Dobrilla Diego,ARG
-Donatti	Pablo,ARG
+Donatti Pablo,ARG
 F. Górgolas Ignacio,ARG
-Galeano	Carlos,ARG
-García	Nicolás,ARG
-Lahitou	Patricio,ARG
+Galeano Carlos,ARG
+García Nicolás,ARG
+Lahitou Patricio,ARG
 Méndez Luis,ARG
 Mendive Alejo,ARG
 Mendive Lucas,ARG
 Otero Christian,ARG
 Pelliccioni Sebastián,ARG
-Perrone	Matías,ARG
+Perrone Matías,ARG
 Rabai Diego,ARG
 Riba Juan Pablo,ARG
 Romero Daniel,ARG
 Ruíz Juan,ARG
 Serraninho Juan,ARG
-Taborda	Esteban,ARG
-Vázquez	Ezequiel,ARG
-Vázquez	Sergio,ARG
+Taborda Esteban,ARG
+Vázquez Ezequiel,ARG
+Vázquez Sergio,ARG
 Brown Andrew,AUS
 Fernández Leonardo,AUS
 Scibilia Joe,AUS
@@ -31,9 +31,9 @@ Aerts David,BEL
 Baeten Christophe,BEL
 Alexandre Sampaio,BRA 
 Diego Allou,BRA 
-Marcelo	Martins Kawarowski,BRA 
+Marcelo Martins Kawarowski,BRA 
 Robson Rodriguez,BRA 
-Brennan	McNicoll,CAN 
+Brennan McNicoll,CAN 
 Brooks Brandon,CAN 
 Donoso Carlos,CAN 
 Hawthorne Brandon,CAN 
@@ -42,8 +42,8 @@ Tait Michael,CAN
 Berríos Daniel,CHI
 Cardenas Pedro,CHI
 Dominguez Ernesto,CHI
-Girbone	Santiago,CHI
-Piccolo	Eduardo,CHI
+Girbone Santiago,CHI
+Piccolo Eduardo,CHI
 Quera Cristian,CHI
 Ubilla Carlos,CHI
 Vanek Peter,CHI
@@ -51,33 +51,33 @@ Ji Jie,CHN
 Liu Mengyang,CHN
 Luan Chen,CHN
 Zhang Yunlong,CHN
-Villeda	Paul, ESA
-BOUIX Yoann,FRA
-CADOT Jean Baptiste,FRA
-CELENTANO Julien,FRA
-COUSIN Nicolas,FRA
-COUSIN Tom,FRA
-FALLETI Kevin,FRA
-GAUDET Ludovic,FRA
-GAUMY Ludovic,FRA
-GAVANON Benjamin,FRA
-HUE Jimmy,FRA
-JACOB Maxime,FRA
-LAFON Mickael,FRA
-LEFEBVRE Paul Edouard,FRA
-PRETOT Romuald,FRA
-RICHER Alexandre,FRA
-RIGAUD Clement,FRA
+Villeda Paul, ESA
+Bouix Yoann,FRA
+Cadot Jean Baptiste,FRA
+Celentano Julien,FRA
+Cousin Nicolas,FRA
+Cousin Tom,FRA
+Falleti Kevin,FRA
+Gaudet Ludovic,FRA
+Gaumy Ludovic,FRA
+Gavanon Benjamin,FRA
+Hue Jimmy,FRA
+Jacob Maxime,FRA
+Lafon Mickael,FRA
+Lefebvre Paul Edouard,FRA
+Pretot Romuald,FRA
+Richer Alexandre,FRA
+Rigaud Clement,FRA
 Bachmann Daniel,GER
 Bengel Wolfgang,GER
 Biegel Thomas,GER
 Kelkel Julian,GER
 Kober Alex,GER
-Schölch	Robin,GER
+Schölch Robin,GER
 Bulk Bjorn,NED
 Green Collin,NED
-Khayali	Hakim,NED
-Kuipers	Jim,NED
+Khayali Hakim,NED
+Kuipers Jim,NED
 Melten Johnny,NED
 Mostaard Danny,NED
 Munnik Dave,NED
@@ -91,7 +91,7 @@ van Eijk Ricardo,NED
 Voost Matthijs,NED
 Wetzel Simon,NED
 Bogár Krisztián,HUN
-Czirbus	Tamás,HUN
+Czirbus Tamás,HUN
 Gelencsér Gábor,HUN
 Hankó Péter,HUN
 Kálló István,HUN
@@ -117,16 +117,16 @@ Lahart Ricky,IRL
 Lynagh Ronan,IRL
 Morcombe Gareth,IRL
 Mullin Gary,IRL
-Redmond	Daniel,IRL
+Redmond Daniel,IRL
 Sawyer Stephen,IRL
 Brescacin Flavio,ITA
-Camerin	Ivan,ITA
+Camerin Ivan,ITA
 Cappelletto Alessandro,ITA
 Caricato Marco,ITA
 Caverzan Marco,ITA
 Costantino Salvatore,ITA
 De Pascale Valerio,ITA
-Decaria	Leonardo,ITA
+Decaria Leonardo,ITA
 Esposito Marco,ITA
 Pavan Marco,ITA
 Piovesan Jury,ITA
@@ -134,14 +134,14 @@ Singia Ennio,ITA
 Spada Giovanni,ITA
 Spader Gianpietro,ITA
 Taliercio Luca,ITA
-Trentin	Marco,ITA
+Trentin Marco,ITA
 Arai Susumu,JPN
-Hachiya	Hiroki,JPN
+Hachiya Hiroki,JPN
 Horinouchi Satoshi,JPN
-Imamura	Koja,JPN
+Imamura Koja,JPN
 Kashihara Atsuhiro,JPN
 Kimura Masaru,JPN
-Kouhase	Fumito,JPN
+Kouhase Fumito,JPN
 Kuwata Hiroyuki,JPN
 Mineo Kazunobu,JPN
 Suzuki Hidenari,JPN
@@ -155,22 +155,22 @@ Bae Seongjin,KOR
 Choi Euntaek,KOR
 Choi Seungho,KOR
 Kwon Kisung Dennis,KOR
-BARRAGÁN OSVALDO,MEX
-BRINDIS	MANUEL,MEX
-CRUZ ALEJANDRO,MEX
-GARZA JULIO,MEX
-KHAYALI	KARIM,MEX
-MARTÍNEZ TOMÁS,MEX
-PEÑA MANUEL,MEX
-PÉREZ JUAN RAMÓN,MEX
-PORRAS ABRAHAM,MEX
-REES JASON,MEX
-REYES ENRIQUE,MEX
-ROMM ROBERTO,MEX
-SOTO JUAN,MEX
+Barragán Osvaldo,MEX
+Brindis Manuel,MEX
+Cruz Alejandro,MEX
+Garza Julio,MEX
+Khayali Karim,MEX
+Martínez Tomás,MEX
+Peña Manuel,MEX
+Pérez Juan Ramón,MEX
+Porras Abraham,MEX
+Rees Jason,MEX
+Reyes Enrique,MEX
+Romm Roberto,MEX
+Soto Juan,MEX
 Borgen Oystein,NOR
-Enevold	Espen,NOR
-Eriksen	Lasse,NOR
+Enevold Espen,NOR
+Eriksen Lasse,NOR
 Foss Erik,NOR
 Johansen Egil,NOR
 Larsen Simon,NOR
@@ -184,12 +184,12 @@ Bartko Tomáš,SVK
 Fodrek Branislav,SVK
 Gubáni Juraj,SVK
 Kozák Ján,SVK
-Tengeri	Tomáš,SVK
+Tengeri Tomáš,SVK
 Menor Piero,ESP
 Svensson Tommy,SWE
-Thurlin	Markus,SWE
+Thurlin Markus,SWE
 Babel Julien,SUI
-Charles	Nicolas,SUI
+Charles Nicolas,SUI
 D'Espine Julien,SUI
 Jacot Lionel,SUI
 Mancino David,SUI
@@ -219,13 +219,13 @@ Crane Steve John,USA
 Fleck Kenneth,USA
 Godfrey Jordan,USA
 Khatib Sharif,USA
-Mahoney	Ryan,USA
+Mahoney Ryan,USA
 Matteoli Richard,USA
 Matteoli Vincent,USA
 McNamara Sean,USA
 Nash Julian,USA
-Vazquez	Jorge,USA
-Wallace	Christopher,USA
+Vazquez Jorge,USA
+Wallace Christopher,USA
 Woodward Mark,USA
 BYE, NCC
 BYE, NCC

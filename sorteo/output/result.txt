@@ -1,35 +1,406 @@
-Line 1: Thursday 8 AM
-	*) SebastiÃ¡n Siritto - GBR
-	*) Nacho Diaz Oliva - CRO
-	*) Patricio Lahitou - ARG
-	*) MartÃ­n DobantÃ³n - IRL
+Line 1: Wednesday 8.00
+	*) Berríos Daniel - CHI
+	*) Bulk Bjorn - NED
+	*) Perrone	Matías - ARG
+	*) HUE Jimmy - FRA
 
 
-Line 2: Thursday 9 AM
-	*) Federico Donohoe - ESA
-	*) Manuel Deza - CAN
-	*) Pablo Artuso - ARG
-	*) Ezequiel Del Corral - ARG
+Line 2: Wednesday 8.08
+	*) Tengeri	Tomáš - SVK
+	*) Suzuki Hidenari - JPN
+	*) De Pascale Valerio - ITA
+	*) Baeten Christophe - BEL
 
 
-Line 3: Thursday 10 AM
-	*) Santiago Stocke - NED
-	*) Martin Ferrarotti - ARG
-	*) Alejandro Guglielmo - BRA
-	*) Lautaro Freidin - RSA
+Line 3: Wednesday 8.16
+	*) BYE - NCC
+	*) GAVANON Benjamin - FRA
+	*) CELENTANO Julien - FRA
+	*) Battaglia Damián - ARG
 
 
-Line 4: Friday 9 AM
-	*) Francisco Martin - AUT
-	*) Gonzalo Siritto - SVK
-	*) Christian Martinez - PUR
-	*) Nicolas Varela - NOR
+Line 4: Wednesday 8.24
+	*) Munnik Dave - NED
+	*) Menor Piero - ESP
+	*) Balázsi Csaba - HUN
+	*) Khatib Sharif - USA
 
 
-Line 5: Friday 10 AM
-	*) Agustin Diaz Oliva - COL
-	*) Lucas Mari - CHN
-	*) AgustÃ­n Devoto - USA
-	*) Christian MercadÃ© - PAN
+Line 5: Wednesday 8.32
+	*) Nash Julian - USA
+	*) Spada Giovanni - ITA
+	*) Galeano	Carlos - ARG
+	*) GAUDET Ludovic - FRA
+
+
+Line 6: Wednesday 8.40
+	*) BOUIX Yoann - FRA
+	*) Bachmann Daniel - GER
+	*) D'Espine Julien - SUI
+	*) Cunningham Ronan - IRL
+
+
+Line 7: Wednesday 8.48
+	*) Taliercio Luca - ITA
+	*) Pelliccioni Sebastián - ARG
+	*) Tajtyi Róbert - HUN
+	*) Cagnola Germán - ARG
+
+
+Line 8: Wednesday 8.56
+	*) Barry James - IRL
+	*) Gelencsér Gábor - HUN
+	*) BARRAGÁN OSVALDO - MEX
+	*) REYES ENRIQUE - MEX
+
+
+Line 9: Wednesday 9.04
+	*) Charles	Nicolas - SUI
+	*) Schölch	Robin - GER
+	*) Kwon Kisung Dennis - KOR
+	*) Mostaard Danny - NED
+
+
+Line 10: Wednesday 9.12
+	*) Gubáni Juraj - SVK
+	*) Baker Steve - GBR
+	*) Taborda	Esteban - ARG
+	*) Moore Clinton - GBR
+
+
+Line 11: Wednesday 9.20
+	*) Costantino Salvatore - ITA
+	*) Molnár Arnold - HUN
+	*) LEFEBVRE Paul Edouard - FRA
+	*) Peeper Marcel - NED
+
+
+Line 12: Wednesday 9.28
+	*) Sain Antal - HUN
+	*) Dominguez Ernesto - CHI
+	*) ROMM ROBERTO - MEX
+	*) Mahoney	Ryan - USA
+
+
+Line 13: Wednesday 9.36
+	*) Ruíz Juan - ARG
+	*) Roberts Steve - GBR
+	*) Simoes Fred - SUI
+	*) Bogár Krisztián - HUN
+
+
+Line 14: Wednesday 9.44
+	*) Camerin	Ivan - ITA
+	*) van der Veldt Fred - NED
+	*) Lengyel Béla - HUN
+	*) Paraguay 2 - PAR
+
+
+Line 15: Wednesday 9.52
+	*) Lahitou	Patricio - ARG
+	*) COUSIN Tom - FRA
+	*) May Karl - GBR
+	*) COUSIN Nicolas - FRA
+
+
+Line 16: Wednesday 10.00
+	*) Morcombe Gareth - IRL
+	*) Downey Mikey - GBR
+	*) Heelan Kevin - IRL
+	*) CADOT Jean Baptiste - FRA
+
+
+Line 17: Wednesday 10.08
+	*) Ubilla Carlos - CHI
+	*) LAFON Mickael - FRA
+	*) Barragan Arturo - USA
+	*) Babel Julien - SUI
+
+
+Line 18: Wednesday 10.16
+	*) Iron Nick - GBR
+	*) Kálló István - HUN
+	*) Eriksen	Lasse - NOR
+	*) Scocthford Mark - GBR
+
+
+Line 19: Wednesday 10.24
+	*) Vanek Peter - CHI
+	*) Wallace	Christopher - USA
+	*) Vázquez	Sergio - ARG
+	*) MARTÍNEZ TOMÁS - MEX
+
+
+Line 20: Wednesday 10.32
+	*) Hawthorne Brandon - CAN
+	*) Bartko Tomáš - SVK
+	*) FALLETI Kevin - FRA
+	*) Piovesan Jury - ITA
+
+
+Line 21: Wednesday 10.40
+	*) Svensson Tommy - SWE
+	*) Rodrigues Octavio - SUI
+	*) Piccolo	Eduardo - CHI
+	*) Khayali	Hakim - NED
+
+
+Line 22: Wednesday 10.48
+	*) Price Phil - GBR
+	*) F. Górgolas Ignacio - ARG
+	*) Smith Ryann - GBR
+	*) Hachiya	Hiroki - JPN
+
+
+Line 23: Wednesday 10.56
+	*) Mendive Lucas - ARG
+	*) van Bracht Sam - NED
+	*) GARZA JULIO - MEX
+	*) PRETOT Romuald - FRA
+
+
+Line 24: Wednesday 11.04
+	*) Green Collin - NED
+	*) Melten Johnny - NED
+	*) Tanaka Yuta - JPN
+	*) Adams Kyle - USA
+
+
+Line 25: Wednesday 11.12
+	*) Washitake Makoto - JPN
+	*) Mendive Alejo - ARG
+	*) Nagy Balázs - HUN
+	*) Matteoli Vincent - USA
+
+
+Line 26: Wednesday 11.20
+	*) Cardenas Pedro - CHI
+	*) SOTO JUAN - MEX
+	*) Vazquez	Jorge - USA
+	*) Lynagh Ronan - IRL
+
+
+Line 27: Wednesday 11.28
+	*) Fleck Kenneth - USA
+	*) Basto Pedro - POR
+	*) Crane Steve John - USA
+	*) Kelkel Julian - GER
+
+
+Line 28: Wednesday 11.36
+	*) Luan Chen - CHN
+	*) JACOB Maxime - FRA
+	*) Trentin	Marco - ITA
+	*) Kober Alex - GER
+
+
+Line 29: Wednesday 11.44
+	*) Enevold	Espen - NOR
+	*) Bae Seongjin - KOR
+	*) Yasumura Tsubasa - JPN
+	*) Paraguay 3 - PAR
+
+
+Line 30: Wednesday 11.52
+	*) Kozák Ján - SVK
+	*) Liu Mengyang - CHN
+	*) Yamagata Yuto - JPN
+	*) Ji Jie - CHN
+
+
+Line 31: Wednesday 12.00
+	*) Hankó Péter - HUN
+	*) Fodrek Branislav - SVK
+	*) Czirbus	Tamás - HUN
+	*) Cappelletto Alessandro - ITA
+
+
+Line 32: Wednesday 12.08
+	*) Vázquez	Ezequiel - ARG
+	*) Anderson Chris - GBR
+	*) Wetzel Simon - NED
+	*) Grace Chris - IRL
+
+
+Line 33: Wednesday 12.16
+	*) Johansen Egil - NOR
+	*) Thurlin	Markus - SWE
+	*) Nordli Magnus - NOR
+	*) Mullin Gary - IRL
+
+
+Line 34: Wednesday 12.24
+	*) Spice Dan - GBR
+	*) Diego Allou - BRA
+	*) van Eekeres Herman - NED
+	*) Foss Erik - NOR
+
+
+Line 35: Wednesday 12.32
+	*) Otero Christian - ARG
+	*) Horinouchi Satoshi - JPN
+	*) Cowell Marc - GBR
+	*) Quera Cristian - CHI
+
+
+Line 36: Wednesday 12.40
+	*) Brennan	McNicoll - CAN
+	*) Méndez Luis - ARG
+	*) Godfrey Jordan - USA
+	*) Tait Michael - CAN
+
+
+Line 37: Wednesday 12.48
+	*) Caricato Marco - ITA
+	*) Larsen Simon - NOR
+	*) Aerts David - BEL
+	*) REES JASON - MEX
+
+
+Line 38: Wednesday 12.56
+	*) BYE - NCC
+	*) Caverzan Marco - ITA
+	*) Pavan Marco - ITA
+	*) García	Nicolás - ARG
+
+
+Line 39: Wednesday 13.04
+	*) Zhang Yunlong - CHN
+	*) Villeda	Paul - ESA
+	*) Bengel Wolfgang - GER
+	*) Urban Jaap - NED
+
+
+Line 40: Wednesday 13.12
+	*) BRINDIS	MANUEL - MEX
+	*) Mineo Kazunobu - JPN
+	*) Connolly Aaron - IRL
+	*) Matteoli Richard - USA
+
+
+Line 41: Wednesday 13.20
+	*) Imamura	Koja - JPN
+	*) Clarke Ben - GBR
+	*) Butcher Phil - GBR
+	*) Jacot Lionel - SUI
+
+
+Line 42: Wednesday 13.28
+	*) Arai Susumu - JPN
+	*) Robson Rodriguez - BRA
+	*) Choi Seungho - KOR
+	*) Marcelo	Martins Kawarowski - BRA
+
+
+Line 43: Wednesday 13.36
+	*) Przednowek Jacek - CAN
+	*) Braccani Luciano - ARG
+	*) RICHER Alexandre - FRA
+	*) Paraguay 4 - PAR
+
+
+Line 44: Wednesday 13.44
+	*) Borgen Oystein - NOR
+	*) GAUMY Ludovic - FRA
+	*) Alexandre Sampaio - BRA
+	*) Brown Andrew - AUS
+
+
+Line 45: Wednesday 13.52
+	*) Barberis Fernando - ARG
+	*) Biegel Thomas - GER
+	*) Spader Gianpietro - ITA
+	*) Voost Matthijs - NED
+
+
+Line 46: Wednesday 14.00
+	*) Esposito Marco - ITA
+	*) Podusil György - HUN
+	*) Barragan Jorge - USA
+	*) Totaro Sam - AUS
+
+
+Line 47: Wednesday 14.08
+	*) Brooks Brandon - CAN
+	*) Donoso Carlos - CAN
+	*) Woodward Mark - USA
+	*) Rabai Diego - ARG
+
+
+Line 48: Wednesday 14.16
+	*) Biró László - HUN
+	*) Wickson Simon - AUS
+	*) Cohmanschi Robert - USA
+	*) Redmond	Daniel - IRL
+
+
+Line 49: Wednesday 14.24
+	*) KHAYALI	KARIM - MEX
+	*) Papp Péter - HUN
+	*) Tomizawa Kazumi - JPN
+	*) Varga Gábor - HUN
+
+
+Line 50: Wednesday 14.32
+	*) Fabbro Dario - PAR
+	*) van Eijk Ricardo - NED
+	*) Sawyer Stephen - IRL
+	*) Spink Tom - GBR
+
+
+Line 51: Wednesday 14.40
+	*) Kimura Masaru - JPN
+	*) Romero Daniel - ARG
+	*) PEÑA MANUEL - MEX
+	*) Dobrilla Diego - ARG
+
+
+Line 52: Wednesday 14.48
+	*) Suzuki Nobuya - JPN
+	*) Scibilia Joe - AUS
+	*) Choi Euntaek - KOR
+	*) BYE - NCC
+
+
+Line 53: Wednesday 14.56
+	*) Clery Eamon - IRL
+	*) Serraninho Juan - ARG
+	*) Lahart Ricky - IRL
+	*) Decaria	Leonardo - ITA
+
+
+Line 54: Wednesday 15.04
+	*) Kashihara Atsuhiro - JPN
+	*) Fernández Leonardo - AUS
+	*) Jenkinson Cathal - IRL
+	*) PORRAS ABRAHAM - MEX
+
+
+Line 55: Wednesday 15.12
+	*) Kuipers	Jim - NED
+	*) Németh Gábor - HUN
+	*) Donatti	Pablo - ARG
+	*) Singia Ennio - ITA
+
+
+Line 56: Wednesday 15.20
+	*) Girbone	Santiago - CHI
+	*) Oliver Paul - GBR
+	*) Brescacin Flavio - ITA
+	*) Kuwata Hiroyuki - JPN
+
+
+Line 57: Wednesday 15.28
+	*) RIGAUD Clement - FRA
+	*) Kouhase	Fumito - JPN
+	*) Petrus Randy - NED
+	*) McNamara Sean - USA
+
+
+Line 58: Wednesday 15.36
+	*) Riba Juan Pablo - ARG
+	*) Mancino David - SUI
+	*) PÉREZ JUAN RAMÓN - MEX
+	*) CRUZ ALEJANDRO - MEX
 
 

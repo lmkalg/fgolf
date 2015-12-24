@@ -180,6 +180,17 @@ body{
 }
 
 
+
+
+.fg-wc-image{
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 4%;
+  right: 70%;
+}
+
+
 /* = Responsive table
 ------------------------*/
 

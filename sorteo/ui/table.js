@@ -49,7 +49,7 @@
     
     /* = Get data
     ------------------------*/
-    getJson: function(url){
+    execute: function(data){
       
       var self = this;
       
@@ -64,51 +64,78 @@
       // Get json
 
 
-      $.getJSON(thisUrl,function(data){
-        var time_to_wait = 20000;
-        for (var i = 0; i < data.length; i++){
-          (function(i){
-              setTimeout(function(){
-
-                // load template
-                var out_html = self.complete_line_and_template(data[i]); 
-                $.each(data[i].players,function(i,obj){  
-                  // load inner template
-                  out_html += self.complete_players_info(obj);
-                });  
-                // close tag
-                out_html += '</tbody>';
-                // render templates
-                dataFn.html(out_html);
+      var time_to_wait = 24500;
 
 
-              }, time_to_wait * i);
-          }(i));
-          
+      for (var i = 0; i < data.length; i++){
+        (function(i){
+            setTimeout(function(){
 
-        }
+              // load template
+              var out_html = self.complete_line_and_template(data[i]); 
+              $.each(data[i].players,function(i,obj){  
+                // load inner template
+                out_html += self.complete_players_info(obj);
+              });  
+              // close tag
+              out_html += '</tbody>';
+              // render templates
+              dataFn.html(out_html);
 
-         // error 
-      }).error(function(j,t,e){ 
-        // render error.
-        dataFn.html('<span class="error_table">'+
-                    'Error = '+e+
-                    '</span>');
+
+            }, time_to_wait * i);
+        }(i));
         
-      });
+
+      } ;
+
     },
     
 
     // head table template
     complete_line_and_template: function(obj){
-      var html = '<thead>'+
+        
+        
+      var html_countundown =  '<meta charset="UTF-8">' + 
+                              '<link href="http://fonts.googleapis.com/css?family=Bowlby+One+SC|Londrina+Outline" rel="stylesheet" type="text/css" />' +
+                              '<link href="countdown.css" rel="stylesheet" type="text/css">' +
+                              '<div class="cd-wrapper">' +
+                              '<div class="cd-number-wrapper">' +
+                              //'<img class="fg-wc-image" src="../images/fgolfwc"/>'+
+                              '<span class="cd-number-twenty">20</span>' +
+                              '<span class="cd-number-nineteen">19</span>' +
+                              '<span class="cd-number-eighteen">18</span>' +
+                              '<span class="cd-number-seventeen">17</span>' +
+                              '<span class="cd-number-sixteen">16</span>' +
+                              '<span class="cd-number-fifteen">15</span>' +
+                              '<span class="cd-number-fourteen">14</span>' +
+                              '<span class="cd-number-thirdteen">13</span>' +
+                              '<span class="cd-number-twelve">12</span>' +
+                              '<span class="cd-number-eleven">11</span>' +
+                              '<span class="cd-number-ten">10</span>' +
+                              '<span class="cd-number-nine">9</span>' +
+                              '<span class="cd-number-eight">8</span>' +
+                              '<span class="cd-number-seven">7</span>' +
+                              '<span class="cd-number-six">6</span>' +
+                              '<span class="cd-number-five">5</span>' +
+                              '<span class="cd-number-four">4</span>' +
+                              '<span class="cd-number-three">3</span>' +
+                              '<span class="cd-number-two">2</span>' +
+                              '<span class="cd-number-one">1</span>' +
+                              '</div>' ;
+
+
+      var html =  
+        '<thead>'+
         '<tr>' +
         '<th> Line Number '+  obj.line_number +'</th>' +
         '<th> Date: ' + obj.line_info +'</th>'+
         '</tr>' +
         '<tr>'+
         '<th width="10%">Country</th>'+
-        '<th>Player</th>'+
+        '<th>Player'+
+        html_countundown +
+        '</th>'+
         '</tr>'+
         '</thead>'+
         '<tbody >';
@@ -138,7 +165,7 @@
         alert(json_obj.Error);
       }
       else{
-        $.table_of_contacts.get.init();
+        $.table_of_contacts.get.execute(json_obj);
       }
     });
   });

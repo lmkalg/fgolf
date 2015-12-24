@@ -12,11 +12,13 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
 		"""Respond to a GET request."""
 		if s.path == '/execute':
 			json = draw.begin_draw()
-		
+
 		s.send_response(200)
 		s.send_header("Content-type", "text/json")
 		s.end_headers()
-		s.wfile.write(json)
+
+		json2 = json.encode('utf-8')
+		s.wfile.write(json2)
 
 if __name__ == '__main__':
 		BaseHTTPServer.test(CORSRequestHandler, BaseHTTPServer.HTTPServer)

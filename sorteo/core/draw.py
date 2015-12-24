@@ -1,20 +1,25 @@
 #!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 import random
 import constants
 import sys
 import json
 import time 
-
+import codecs
 
 from argparse import ArgumentParser
 from player import Player
 from line import Line
 from constants import countries_images
 
+PLAYERS_ENCODING = 'latin-1'
+
 
 def generate_players_list(name_country_file):
 	players = []
-	with open(name_country_file,'r') as f:
+	with codecs.open(name_country_file,'r',encoding= PLAYERS_ENCODING) as f:
 		content = f.readlines()
 		content = [line.rstrip() for line in content]	
 		content = [line for line in content if line]
@@ -39,16 +44,17 @@ def generate_lines_list(date_file):
 
 
 
+
+
 def write_result(result_file, lines):
-	with open(result_file,'w') as f:
+	with codecs.open(result_file,'w', encoding= PLAYERS_ENCODING) as f:
 		#Sort it by line number
 		lines.sort(key= lambda l: l.number)
-
 		for line in lines:
 			f.write(line.toString())
 
 def write_json(json_file, lines):
-	with open(json_file, 'w') as f:
+	with codecs.open(json_file, 'w', encoding= PLAYERS_ENCODING) as f:
 		#Sort it by line number
 		lines.sort(key= lambda l: l.number)
 		f.write('[\n')
@@ -81,7 +87,7 @@ def get_json(lines):
 		f += '\t\"line_info\":\"{0}\",\n'.format(line.date)
 		f += '\t\t\"players\":[\n'
 		for player in line.players:
-			f += '\t\t\t{\"country\":\"%s\", \"player\":\"%s\"}' % (countries_images[player.country], player.name)
+			f += '\t\t\t{\"country\":\"%s\", \"player\":\"%s (%s)\"}' % (countries_images[player.country], player.name, player.country.upper())
 			if not player == line.players[-1]:
 				f += ','
 			f += '\n'
@@ -182,11 +188,12 @@ def begin_draw():
 			second_turn(players,lines)
 
 
-			write_result(result_file, lines) #Human frindly file
+			#write_result(result_file, lines) #Human frindly file
 			write_json(json_file, lines)
 			write_json(json_file + str(time.time()), lines)
 			print get_json(lines)
 			return get_json(lines)
+			#return json.dumps(get_json(lines), encoding=PLAYERS_ENCODING)
 			break
 		except Exception,e :
 			if i < times:
