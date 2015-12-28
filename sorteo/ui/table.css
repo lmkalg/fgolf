@@ -191,6 +191,20 @@ body{
 }
 
 
+
+
+
+.finish_page{
+  font-family: 'olivier';
+  color:#FFFFFF;
+  font-size: 10em;
+  vertical-align: top;
+  /*position: fixed;*/
+}
+
+
+
+
 /* = Responsive table
 ------------------------*/
 

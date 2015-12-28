@@ -11,10 +11,10 @@
   opacity: 0;
 
 	
-  -webkit-animation: bounce 800ms ease-out 1s forwards;;
-	-moz-animation: bounce 800ms ease-out 1s forwards;;
-	-o-animation: bounce 800ms ease-out 1s forwards;;
-	animation: bounce 800ms ease-out 1s forwards;;
+  -webkit-animation: bounce 600ms ease-out 1s forwards;;
+	-moz-animation: bounce 600ms ease-out 1s forwards;;
+	-o-animation: bounce 600ms ease-out 1s forwards;;
+	animation: bounce 600ms ease-out 1s forwards;;
 }
 
 
@@ -30,10 +30,10 @@
   text-align:center;
   color: transparent;
 
-  -webkit-animation: bounce 800ms ease-out 1s forwards;
-  -moz-animation: bounce 800ms ease-out 1s forwards;
-  -o-animation: bounce 800ms ease-out 1s forwards;
-  animation: bounce 1800ms ease-out 1s forwards;
+  -webkit-animation: bounce 600ms ease-out 1s forwards;
+  -moz-animation: bounce 600ms ease-out 1s forwards;
+  -o-animation: bounce 600ms ease-out 1s forwards;
+  animation: bounce 600ms ease-out 1s forwards;
 }
 
 
@@ -55,10 +55,10 @@
   opacity: 0;
 
   
-  -webkit-animation: bounce 800ms ease-out 5s forwards;
-  -moz-animation: bounce 800ms ease-out 5s forwards;
-  -o-animation: bounce 800ms ease-out 5s forwards;
-  animation: bounce 800ms ease-out 5s forwards;
+  -webkit-animation: bounce 600ms ease-out 5s forwards;
+  -moz-animation: bounce 600ms ease-out 5s forwards;
+  -o-animation: bounce 600ms ease-out 5s forwards;
+  animation: bounce 600ms ease-out 5s forwards;
 }
 
 
@@ -74,10 +74,10 @@
   text-align:center;
   color: transparent;
 
-  -webkit-animation: bounce 800ms ease-out 5s forwards;
-  -moz-animation: bounce 800ms ease-out 5s forwards;
-  -o-animation: bounce 800ms ease-out 5s forwards;
-  animation: bounce 1800ms ease-out 5s forwards;
+  -webkit-animation: bounce 600ms ease-out 5s forwards;
+  -moz-animation: bounce 600ms ease-out 5s forwards;
+  -o-animation: bounce 600ms ease-out 5s forwards;
+  animation: bounce 600ms ease-out 5s forwards;
 }
 
 
@@ -99,10 +99,10 @@
   opacity: 0;
 
   
-  -webkit-animation: bounce 800ms ease-out 9s forwards;
-  -moz-animation: bounce 800ms ease-out 9s forwards;
-  -o-animation: bounce 800ms ease-out 9s forwards;
-  animation: bounce 800ms ease-out 9s forwards;
+  -webkit-animation: bounce 600ms ease-out 9s forwards;
+  -moz-animation: bounce 600ms ease-out 9s forwards;
+  -o-animation: bounce 600ms ease-out 9s forwards;
+  animation: bounce 600ms ease-out 9s forwards;
 }
 
 
@@ -118,10 +118,10 @@
   text-align:center;
   color: transparent;
 
-  -webkit-animation: bounce 800ms ease-out 9s forwards;
-  -moz-animation: bounce 800ms ease-out 9s forwards;
-  -o-animation: bounce 800ms ease-out 9s forwards;
-  animation: bounce 1800ms ease-out 9s forwards;
+  -webkit-animation: bounce 600ms ease-out 9s forwards;
+  -moz-animation: bounce 600ms ease-out 9s forwards;
+  -o-animation: bounce 600ms ease-out 9s forwards;
+  animation: bounce 600ms ease-out 9s forwards;
 }
 
 
@@ -140,10 +140,10 @@
   opacity: 0;
 
   
-  -webkit-animation: bounce 800ms ease-out 13s forwards;
-  -moz-animation: bounce 800ms ease-out 13s forwards;
-  -o-animation: bounce 800ms ease-out 13s forwards;
-  animation: bounce 800ms ease-out 13s forwards;
+  -webkit-animation: bounce 600ms ease-out 13s forwards;
+  -moz-animation: bounce 600ms ease-out 13s forwards;
+  -o-animation: bounce 600ms ease-out 13s forwards;
+  animation: bounce 600ms ease-out 13s forwards;
 }
 
 
@@ -159,10 +159,10 @@
   text-align:center;
   color: transparent;
 
-  -webkit-animation: bounce 800ms ease-out 13s forwards;
-  -moz-animation: bounce 800ms ease-out 13s forwards;
-  -o-animation: bounce 800ms ease-out 13s forwards;
-  animation: bounce 1800ms ease-out 13s forwards;
+  -webkit-animation: bounce 600ms ease-out 13s forwards;
+  -moz-animation: bounce 600ms ease-out 13s forwards;
+  -o-animation: bounce 600ms ease-out 13s forwards;
+  animation: bounce 600ms ease-out 13s forwards;
 }
 
 
@@ -179,54 +179,45 @@
     opacity: 0;
     color:white;
   }
-  5% {
-  	-webkit-transform:translateX(-100%);
+  10% {
+  	-webkit-transform:translateX(-90%);
     opacity: 0;
     color:white;
   }
-  15% {
-  	-webkit-transform:translateX(0);
+  20% {
+  	-webkit-transform:translateX(-80%);
     padding-bottom: 5px;
     color:white;
   }
   30% {
-  	-webkit-transform:translateX(-50%);
+  	-webkit-transform:translateX(-70%);
     color:white;
   }
   40% {
-  	-webkit-transform:translateX(0%);
+  	-webkit-transform:translateX(-60%);
     padding-bottom: 6px;
     color:white;
   }
   50% {
-  	-webkit-transform:translateX(-30%);
+    -webkit-transform:translateX(-50%);
+    color:white;
+  }
+  60% {
+  	-webkit-transform:translateX(-40%);
     color:white;
   }
   70% {
-  	-webkit-transform:translateX(0%);
+  	-webkit-transform:translateX(-30%);
     padding-bottom: 7px;
     color:white;
   }
   80% {
-  	-webkit-transform:translateX(-15%);
+  	-webkit-transform:translateX(-20%);
     color:white;
   }
   90% {
-  	-webkit-transform:translateX(0%);
-  	padding-bottom: 8px;
-    color:white;
-  }
-  95% {
   	-webkit-transform:translateX(-10%);
-    color:white;
-  }
-  97% {
-  	-webkit-transform:translateX(0%);
-  	padding-bottom: 9px;
-    color:white;
-  }
-  99% {
-  	-webkit-transform:translateX(-5%);
+  	padding-bottom: 8px;
     color:white;
   }
   100% {
@@ -237,54 +228,3 @@
   }
 }
 
-/* W3, Opera 12+, Firefox 16+ */
-@keyframes bounce {
-  0% {
-	transform:translateX(-100%);
-    opacity: 0;
-  }
-  5% {
-  	transform:translateX(-100%);
-    opacity: 0;
-  }
-  15% {
-  	transform:translateX(0);
-    padding-bottom: 5px;
-  }
-  30% {
-  	transform:translateX(-50%);
-  }
-  40% {
-  	transform:translateX(0%);
-    padding-bottom: 6px;
-  }
-  50% {
-  	transform:translateX(-30%);
-  }
-  70% {
-  	transform:translateX(0%);
-    padding-bottom: 7px;
-  }
-  80% {
-  	transform:translateX(-15%);
-  }
-  90% {
-  	transform:translateX(0%);
-  	padding-bottom: 8px;
-  }
-  95% {
-  	transform:translateX(-7%);
-  }
-  97% {
-  	transform:translateX(0%);
-  	padding-bottom: 9px;
-  }
-  99% {
-  	transform:translateX(-3%);
-  }
-  100% {
-  	transform:translateX(0);
-  	padding-bottom: 9px;
-    opacity: 1;
-  }
-}

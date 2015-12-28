@@ -61,33 +61,29 @@
       // No ajax cache
       $.ajaxSetup({ cache: false });
       
-      // Get json
-
-
+      //Set time to wait
       var time_to_wait = 24500;
 
-
+      // Iterate for each line
       for (var i = 0; i < data.length; i++){
         (function(i){
             setTimeout(function(){
 
-              // load template
+              //Complete the template
               var out_html = self.complete_line_and_template(data[i]); 
-
-
+              //Complete the information of one line
               out_html += self.complete_players_info(data[i].players);
               // close tag
               out_html += '</tbody>';
               // render templates
               dataFn.html(out_html);
 
-
             }, time_to_wait * i);
         }(i));
-        
-
       } ;
 
+
+      setTimeout(self.finish, time_to_wait * data.length + 1000);
     },
     
 
@@ -177,6 +173,18 @@
           '</tr>';
 
       return html;
+    },
+
+
+    finish: function(){
+      var html_code =                       
+                        '<html>' +
+                        '<h1 class="finish_page">' +
+                        '  FINISH!!' +
+                        '</h1>'+
+                        '</html> ' ;
+
+      dataFn.html(html_code);
     }
     
   };

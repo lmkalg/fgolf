@@ -9,7 +9,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
 		self.send_header('Access-Control-Allow-Origin', '*')
 		SimpleHTTPRequestHandler.end_headers(self)
 	def do_POST(s):
-		"""Respond to a GET request."""
+		"""Respond to a POST request."""
+		print 'a'
 		if s.path == '/execute':
 			json = draw.begin_draw()
 
