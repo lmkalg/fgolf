@@ -83,7 +83,7 @@
       } ;
 
 
-      setTimeout(self.finish, time_to_wait * data.length + 1000);
+      setTimeout(self.finish, time_to_wait * data.length + 3000);
     },
     
 
@@ -179,9 +179,7 @@
     finish: function(){
       var html_code =                       
                         '<html>' +
-                        '<h1 class="finish_page">' +
-                        '  FINISH!!' +
-                        '</h1>'+
+                        '<img  class="background_image" src="../images/fin">' +
                         '</html> ' ;
 
       dataFn.html(html_code);
