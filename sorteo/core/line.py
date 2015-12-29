@@ -1,4 +1,6 @@
+import constants
 from player import Player
+
 
 class Line(object):
 	def __init__(self, number, date):
@@ -13,6 +15,11 @@ class Line(object):
 		return countries
 
 	def canAddPlayer(self,player):
+		#import pdb; pdb.set_trace()
+		#check for bye players
+		if player.country == constants.NO_COUNTRY and self.countries_of_players().count(constants.NO_COUNTRY) >= 1:
+			return False
+
 		if len(self.players) < 2:
 			return True
 		elif len(self.players) >= 4:
@@ -34,6 +41,10 @@ class Line(object):
 
 
 	def canAddPlayerExchanging(self, player):
+		#check for bye players
+		if player.country == constants.NO_COUNTRY and self.countries_of_players().count(constants.NO_COUNTRY) >= 1:
+			return False
+
 		return self.countries_of_players().count(player.country) < 2
 
 
