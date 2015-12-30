@@ -62,7 +62,7 @@
       $.ajaxSetup({ cache: false });
       
       //Set time to wait
-      var time_to_wait = 24500;
+      var time_to_wait = 22000;
 
       // Iterate for each line
       for (var i = 0; i < data.length; i++){
@@ -83,7 +83,7 @@
       } ;
 
 
-      setTimeout(self.finish, time_to_wait * data.length + 3000);
+      setTimeout(self.finish, time_to_wait * data.length + 1000);
     },
     
 
@@ -93,25 +93,9 @@
         
       var html_countundown =  '<meta charset="UTF-8">' + 
                               '<link href="http://fonts.googleapis.com/css?family=Bowlby+One+SC|Londrina+Outline" rel="stylesheet" type="text/css" />' +
-                              '<link href="countdown.css" rel="stylesheet" type="text/css">' +
                               '<div class="cd-wrapper">' +
                               '<div class="cd-number-wrapper">' +
                               //'<img class="fg-wc-image" src="../images/fgolfwc"/>'+
-                              '<span class="cd-number-twenty">20</span>' +
-                              '<span class="cd-number-nineteen">19</span>' +
-                              '<span class="cd-number-eighteen">18</span>' +
-                              '<span class="cd-number-seventeen">17</span>' +
-                              '<span class="cd-number-sixteen">16</span>' +
-                              '<span class="cd-number-fifteen">15</span>' +
-                              '<span class="cd-number-fourteen">14</span>' +
-                              '<span class="cd-number-thirdteen">13</span>' +
-                              '<span class="cd-number-twelve">12</span>' +
-                              '<span class="cd-number-eleven">11</span>' +
-                              '<span class="cd-number-ten">10</span>' +
-                              '<span class="cd-number-nine">9</span>' +
-                              '<span class="cd-number-eight">8</span>' +
-                              '<span class="cd-number-seven">7</span>' +
-                              '<span class="cd-number-six">6</span>' +
                               '<span class="cd-number-five">5</span>' +
                               '<span class="cd-number-four">4</span>' +
                               '<span class="cd-number-three">3</span>' +

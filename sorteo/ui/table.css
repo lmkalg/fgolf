@@ -1,7 +1,9 @@
+@charset "utf-8";
+
 /* = body
 ------------------------*/
 body {
-  background: black;
+  background: #000099;
   margin: auto;
 }
 
@@ -40,10 +42,14 @@ body {
 .background_image{
     width: 100%;
     height: 100%;
-    position: relative;
-    z-index: 0;
+    position: fixed;
+    z-index: 1;
     margin:auto;
+
 }
+
+ 
+
 
 
 .buttomSD {
@@ -64,7 +70,7 @@ body {
   display:inline-block;
   cursor:pointer;
   color:#330533;
-  z-index: 4;
+  z-index: 2;
   font-family:Arial;
   font-size:17px;
   padding:26px 59px;
@@ -93,14 +99,14 @@ body {
 .box-table table{
   position: absolute; top:0; bottom: 0; left:0 ; right:0;
   border-collapse:collapse;
-  border-color: #330099
+  border-color: #000099
   text-align:left;
   width:100%;
   height:100%;
   margin:0;
   z-index: -1;
   padding:0;
-  background:black; /* PARTU: BORDE IZQ DE LOS PAISES */ 
+  background:#000099; /* PARTU: BORDE IZQ DE LOS PAISES */ 
   animation: responsive 5s infinite ease-in-out;
 }
 .box-table{
@@ -111,7 +117,7 @@ body {
   padding:2.5%;
 }
 .box-table table thead th{ /* TABLE HEADERS  */
-  background-color:330099; /* PARTU: PARTE DE ARRIBA */ 
+  background-color:#000099; /* PARTU: PARTE DE ARRIBA */ 
   color:#FFFFFF;
   text-align:center;
   padding: 0.5em;
@@ -120,7 +126,7 @@ body {
   font-size: 2.0em;  
   height: 1.5em;
   vertical-align: top;
-  border-left-color: #330099
+  border-left-color: #000099
 
 }
 .box-table table tbody td{
@@ -351,3 +357,207 @@ body {
             -webkit-animation-name: bounceOut;
             animation-name: bounceOut;
          }
+
+
+
+
+
+
+
+
+/* COUNTODOWN */
+
+
+.cd-wrapper {
+  background-color: #000099;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 12.5%;
+  right: 20%;
+  margin-top: -75px;
+  margin-left: -175px;
+}
+
+
+
+.cd-number-wrapper {
+  width: 80px;
+  height: 150px;
+  top: 50%;
+  margin: 80px auto 0 auto;
+  font-size: 8em;
+  font-family: 'Londrina Outline'; /* Bowlby One SC */
+}
+  
+
+
+
+.cd-number-five {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto 0 auto;
+  -webkit-animation: cd-number-six-anim 1.2s ease 15.0s 1 normal;
+  -moz-animation: cd-number-six-anim 1.2s ease 15.0s 1 normal;
+  -ms-animation: cd-number-six-anim 1.2s ease 15.0s 1 normal;
+  -o-animation: cd-number-six-anim 1.2s ease 15.0s 1 normal;
+  animation: cd-number-six-anim 1.2s ease 15.0s 1 normal;
+}
+
+@-webkit-keyframes cd-number-six-anim {
+  from {-webkit-transform: scale(0.1); opacity: 0;}
+  to {  -webkit-transform: scale(0.6); opacity: 1;}}
+  
+@-moz-keyframes cd-number-six-anim {
+  from {-moz-transform: scale(0.1); opacity: 0;}
+  to {  -moz-transform: scale(0.6); opacity: 1;}}
+  
+@-o-keyframes cd-number-six-anim {
+  from {-o-transform: scale(0.1); opacity: 0;}
+  to {  -o-transform: scale(0.6); opacity: 1;}}
+  
+@-ms-keyframes cd-number-six-anim {
+  from {-ms-transform: scale(0.1); opacity: 0;}
+  to {  -ms-transform: scale(0.6); opacity: 1;}}
+  
+@keyframes cd-number-six-anim {
+  from {transform: scale(0.1); opacity: 0;}
+  to {  transform: scale(0.6); opacity: 1;}}
+
+
+
+
+.cd-number-four {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto 0 auto;
+  -webkit-animation: cd-number-six-anim 1.2s ease 16.2s 1 normal;
+  -moz-animation: cd-number-six-anim 1.2s ease 16.2s 1 normal;
+  -ms-animation: cd-number-six-anim 1.2s ease 16.2s 1 normal;
+  -o-animation: cd-number-six-anim 1.2s ease 16.2s 1 normal;
+  animation: cd-number-six-anim 1.2s ease 16.2s 1 normal;
+}
+
+@-webkit-keyframes cd-number-six-anim {
+  from {-webkit-transform: scale(0.1); opacity: 0;}
+  to {  -webkit-transform: scale(0.6); opacity: 1;}}
+  
+@-moz-keyframes cd-number-six-anim {
+  from {-moz-transform: scale(0.1); opacity: 0;}
+  to {  -moz-transform: scale(0.6); opacity: 1;}}
+  
+@-o-keyframes cd-number-six-anim {
+  from {-o-transform: scale(0.1); opacity: 0;}
+  to {  -o-transform: scale(0.6); opacity: 1;}}
+  
+@-ms-keyframes cd-number-six-anim {
+  from {-ms-transform: scale(0.1); opacity: 0;}
+  to {  -ms-transform: scale(0.6); opacity: 1;}}
+  
+@keyframes cd-number-six-anim {
+  from {transform: scale(0.1); opacity: 0;}
+  to {  transform: scale(0.6); opacity: 1;}}
+
+
+
+
+.cd-number-three {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto 0 auto;
+  -webkit-animation: cd-number-six-anim 1.2s ease 17.4s 1 normal;
+  -moz-animation: cd-number-six-anim 1.2s ease 17.4s 1 normal;
+  -ms-animation: cd-number-six-anim 1.2s ease 17.4s 1 normal;
+  -o-animation: cd-number-six-anim 1.2s ease 17.4s 1 normal;
+  animation: cd-number-six-anim 1.2s ease 17.4s 1 normal;
+}
+
+@-webkit-keyframes cd-number-six-anim {
+  from {-webkit-transform: scale(0.1); opacity: 0;}
+  to {  -webkit-transform: scale(0.6); opacity: 1;}}
+  
+@-moz-keyframes cd-number-six-anim {
+  from {-moz-transform: scale(0.1); opacity: 0;}
+  to {  -moz-transform: scale(0.6); opacity: 1;}}
+  
+@-o-keyframes cd-number-six-anim {
+  from {-o-transform: scale(0.1); opacity: 0;}
+  to {  -o-transform: scale(0.6); opacity: 1;}}
+  
+@-ms-keyframes cd-number-six-anim {
+  from {-ms-transform: scale(0.1); opacity: 0;}
+  to {  -ms-transform: scale(0.6); opacity: 1;}}
+  
+@keyframes cd-number-six-anim {
+  from {transform: scale(0.1); opacity: 0;}
+  to {  transform: scale(0.6); opacity: 1;}}
+
+
+
+
+.cd-number-two {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto 0 auto;
+  -webkit-animation: cd-number-six-anim 1.2s ease 18.6s 1 normal;
+  -moz-animation: cd-number-six-anim 1.2s ease 18.6s 1 normal;
+  -ms-animation: cd-number-six-anim 1.2s ease 18.6s 1 normal;
+  -o-animation: cd-number-six-anim 1.2s ease 18.6s 1 normal;
+  animation: cd-number-six-anim 1.2s ease 18.6s 1 normal;
+}
+
+@-webkit-keyframes cd-number-six-anim {
+  from {-webkit-transform: scale(0.1); opacity: 0;}
+  to {  -webkit-transform: scale(0.6); opacity: 1;}}
+  
+@-moz-keyframes cd-number-six-anim {
+  from {-moz-transform: scale(0.1); opacity: 0;}
+  to {  -moz-transform: scale(0.6); opacity: 1;}}
+  
+@-o-keyframes cd-number-six-anim {
+  from {-o-transform: scale(0.1); opacity: 0;}
+  to {  -o-transform: scale(0.6); opacity: 1;}}
+  
+@-ms-keyframes cd-number-six-anim {
+  from {-ms-transform: scale(0.1); opacity: 0;}
+  to {  -ms-transform: scale(0.6); opacity: 1;}}
+  
+@keyframes cd-number-six-anim {
+  from {transform: scale(0.1); opacity: 0;}
+  to {  transform: scale(0.6); opacity: 1;}}
+
+
+
+
+.cd-number-one {
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto 0 auto;
+  -webkit-animation: cd-number-six-anim 1.2s ease 19.8s 1 normal;
+  -moz-animation: cd-number-six-anim 1.2s ease 19.8s 1 normal;
+  -ms-animation: cd-number-six-anim 1.2s ease 19.8s 1 normal;
+  -o-animation: cd-number-six-anim 1.2s ease 19.8s 1 normal;
+  animation: cd-number-six-anim 1.2s ease 19.8s 1 normal;
+}
+
+@-webkit-keyframes cd-number-six-anim {
+  from {-webkit-transform: scale(0.1); opacity: 0;}
+  to {  -webkit-transform: scale(0.6); opacity: 1;}}
+  
+@-moz-keyframes cd-number-six-anim {
+  from {-moz-transform: scale(0.1); opacity: 0;}
+  to {  -moz-transform: scale(0.6); opacity: 1;}}
+  
+@-o-keyframes cd-number-six-anim {
+  from {-o-transform: scale(0.1); opacity: 0;}
+  to {  -o-transform: scale(0.6); opacity: 1;}}
+  
+@-ms-keyframes cd-number-six-anim {
+  from {-ms-transform: scale(0.1); opacity: 0;}
+  to {  -ms-transform: scale(0.6); opacity: 1;}}
+  
+@keyframes cd-number-six-anim {
+  from {transform: scale(0.1); opacity: 0;}
+  to {  transform: scale(0.6); opacity: 1;}}
+
+

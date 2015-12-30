@@ -24,8 +24,8 @@ def generate_players_list(name_country_file):
 		content = [line.rstrip() for line in content]	
 		content = [line for line in content if line]
 
-		if ((len(content) % 4) != 0):
-			raise Exception("ERROR. Number of players is not a multiple of 4")
+#		if ((len(content) % 4) != 0):
+#			raise Exception("ERROR. Number of players is not a multiple of 4")
 		for row in content:
 			name, country = row.split(',')
 			players.append(Player(name.strip(), country.strip()))
@@ -36,6 +36,9 @@ def generate_lines_list(date_file):
 	lines = []
 	with open(date_file,'r') as f:
 		content = f.readlines()
+		content = [line.rstrip() for line in content]	
+		content = [line for line in content if line]
+		
 		line_number = 1
 		for row in content:
 			lines.append(Line(line_number,row))	
@@ -178,9 +181,18 @@ def begin_draw():
 		try: 
 			players = generate_players_list(name_country_file)
 			lines = generate_lines_list(date_file)
-			if len(players) / 4 != len(lines):
-				raise Exception("The amount of players must be 4 times the amount of lines. Amount of players is: {0} and lines is: {1}".format(len(players),len(lines)))
+			#if len(players) % 4 != len(lines):
+			#	raise Exception("The amount of players must be 4 times the amount of lines. Amount of players is: {0} and lines is: {1}".format(len(players),len(lines)))
 		
+			#Set bye's players
+			bye1 = Player("BYE","NCC") 
+			bye2 = Player("BYE","NCC")
+			bye3 = Player("BYE","NCC")
+
+			lines[0].addPlayer(bye1)				
+			lines[1].addPlayer(bye2)				
+			lines[2].addPlayer(bye3)	
+
 			#first round where we try to put players like beasts:P 
 			first_turn(players,lines)
 
