@@ -184,7 +184,7 @@ def begin_draw():
 	times = 10
 	i = 0
 
-	make_draw = False
+	make_draw = True
 
 	if not make_draw:
 		json_result = read_draw_from_json(json_file)
