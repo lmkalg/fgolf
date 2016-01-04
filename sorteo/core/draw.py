@@ -67,7 +67,7 @@ def write_json(json_file, lines):
 			f.write('\t\"line_info\":\"{0}\",\n'.format(line.date))
 			f.write('\t\t\"players\":[\n')
 			for player in line.players:
-				f.write('\t\t\t{\"country\":\"%s\", \"player\":\"%s\"}' % (countries_images[player.country], player.name))
+				f.write('\t\t\t{\"country\":\"%s\", \"player\":\"%s (%s)\"}' % (countries_images[player.country], player.name, player.country.upper()))
 				if not player == line.players[-1]:
 					f.write(',')	
 				f.write('\n')
@@ -165,6 +165,13 @@ def second_turn(players,lines):
 
 
 
+
+def read_draw_from_json(json_file):
+	with codecs.open(json_file, 'r', encoding= PLAYERS_ENCODING) as f:
+		content = f.readlines()
+
+	return "".join(content)	
+
 	
 #def begin_draw(name_country_file, date_file, result_file, json_file):
 def begin_draw():
@@ -177,43 +184,53 @@ def begin_draw():
 	times = 10
 	i = 0
 
-	while True:
-		try: 
-			players = generate_players_list(name_country_file)
-			lines = generate_lines_list(date_file)
-			#if len(players) % 4 != len(lines):
-			#	raise Exception("The amount of players must be 4 times the amount of lines. Amount of players is: {0} and lines is: {1}".format(len(players),len(lines)))
-		
-			#Set bye's players
-			bye1 = Player("BYE","NCC") 
-			bye2 = Player("BYE","NCC")
-			bye3 = Player("BYE","NCC")
+	make_draw = False
 
-			lines[0].addPlayer(bye1)				
-			lines[1].addPlayer(bye2)				
-			lines[2].addPlayer(bye3)	
-
-			#first round where we try to put players like beasts:P 
-			first_turn(players,lines)
-
-			#Second round --> Try to switch already saved players
-			second_turn(players,lines)
+	if not make_draw:
+		json_result = read_draw_from_json(json_file)
+		print json_result
+		return json_result
 
 
-			#write_result(result_file, lines) #Human frindly file
-			write_json(json_file, lines)
-			write_json(json_file + str(time.time()), lines)
-			print get_json(lines)
-			return get_json(lines)
-			#return json.dumps(get_json(lines), encoding=PLAYERS_ENCODING)
-			break
-		except Exception,e :
-			if i < times:
-				i += 1
-				pass
-			else:
-				print json.dumps({'Error':'%s'%e})
-				return json.dumps({'Error':'%s'%e})
+	else:
+		while True:
+			try: 
+				players = generate_players_list(name_country_file)
+				lines = generate_lines_list(date_file)
+			
+				#Set bye's players
+				players_mod_4 = len(players) % 4
+				amount_of_byes = (0 if  players_mod_4 == 0 else 4 - players_mod_4)
+				for times in range(amount_of_byes):
+					player = Player("BYE","NCC")
+					lines[times].addPlayer(player)
+
+
+				#Check for compatibility between players and lines quantitites
+				if (len(players) + amount_of_byes) != (len(lines) * 4):
+					raise Exception("The amount of players (including byes) must be 4 times the amount of lines. Amount of players is: {0} and lines is: {1}".format(len(players) + amount_of_byes,len(lines)))
+			
+
+				#first round where we try to put players like beasts:P 
+				first_turn(players,lines)
+
+				#Second round --> Try to switch already saved players
+				second_turn(players,lines)
+
+				#write result
+				write_json(json_file, lines)
+				write_json(json_file + str(time.time()), lines)
+
+				print get_json(lines)
+				return get_json(lines)
+				break
+			except Exception,e :
+				if i < times:
+					i += 1
+					pass
+				else:
+					print json.dumps({'Error':'%s'%e})
+					return json.dumps({'Error':'%s'%e})
 
 
 if __name__ == '__main__':
