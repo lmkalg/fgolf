@@ -184,7 +184,7 @@ Fodrek Branislav,SVK
 Gubáni Juraj,SVK
 Kozák Ján,SVK
 Tengeri Tomáš,SVK
-Menor Piero,ESP
+Piero Menor,ESP
 Svensson Tommy,SWE
 Thurlin Markus,SWE
 Cousin Herve,SUI
